@@ -1,0 +1,59 @@
+Tables_in_exploration_types
+comparaison
+comparaison_mots
+messages
+mots
+mots_unicode
+multilingue
+Field	Type	Null	Key	Default	Extra
+id	int(11)	NO	PRI	NULL	auto_increment
+mot	varchar(100)	YES	MUL	NULL	
+id	mot
+1	ecole
+2	école
+3	École
+4	Ecole
+5	mañana
+6	manana
+7	straße
+8	strasse
+10	школа
+11	مدرسة
+12	विद्यालय
+9	学校
+id	select_type	table	type	possible_keys	key	key_len	ref	rows	Extra
+1	SIMPLE	mots_unicode	ref	idx_mot_unicode	idx_mot_unicode	403	const	4	Using where; Using index
+id	select_type	table	type	possible_keys	key	key_len	ref	rows	Extra
+1	SIMPLE	mots_unicode	range	idx_mot_unicode	idx_mot_unicode	403	NULL	4	Using where; Using index
+id	select_type	table	type	possible_keys	key	key_len	ref	rows	Extra
+1	SIMPLE	mots_unicode	index	NULL	idx_mot_unicode	403	NULL	12	Using index
+Tables_in_exploration_types
+comparaison
+comparaison_mots
+messages
+mots
+mots_general
+mots_unicode
+multilingue
+Field	Type	Null	Key	Default	Extra
+id	int(11)	NO	PRI	NULL	auto_increment
+mot	varchar(100)	YES	MUL	NULL	
+id	mot
+1	ecole
+2	école
+3	École
+4	Ecole
+5	mañana
+6	manana
+7	straße
+8	strasse
+10	школа
+11	مدرسة
+12	विद्यालय
+9	学校
+id	select_type	table	type	possible_keys	key	key_len	ref	rows	Extra
+1	SIMPLE	mots_general	ref	idx_mot_general	idx_mot_general	403	const	4	Using where; Using index
+id	select_type	table	type	possible_keys	key	key_len	ref	rows	Extra
+1	SIMPLE	mots_general	range	idx_mot_general	idx_mot_general	403	NULL	4	Using where; Using index
+id	select_type	table	type	possible_keys	key	key_len	ref	rows	Extra
+1	SIMPLE	mots_general	index	NULL	idx_mot_general	403	NULL	12	Using index
