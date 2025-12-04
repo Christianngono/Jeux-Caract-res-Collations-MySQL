@@ -1,0 +1,14 @@
+Tables_in_exploration_types
+comparaison
+comparaison_mots
+messages
+mots
+mots_general
+mots_unicode
+multilingue
+test_encodage
+Field	Type	Null	Key	Default	Extra
+id	int(11)	NO	PRI	NULL	auto_increment
+texte	varchar(50)	YES		NULL	
+id	texte
+1	Ceci est un test 😃

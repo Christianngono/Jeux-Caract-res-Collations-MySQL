@@ -1,0 +1,14 @@
+Tables_in_exploration_types
+comparaison
+comparaison_mots
+messages
+mots
+mots_general
+mots_unicode
+multilingue
+Field	Type	Null	Key	Default	Extra
+id	int(11)	NO	PRI	NULL	auto_increment
+texteA	varchar(50)	YES		NULL	
+texteB	varchar(50)	YES		NULL	
+id	texteA	texteB
+1	café	Café
