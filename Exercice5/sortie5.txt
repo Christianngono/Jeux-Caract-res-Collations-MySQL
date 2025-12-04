@@ -1,0 +1,39 @@
+id	texteA	texteB
+3	élève	eleve
+6	élève	eleve
+9	élève	eleve
+id	texteA	texteB
+1	café	Café
+2	école	ecole
+5	école	ecole
+8	école	ecole
+3	élève	eleve
+6	élève	eleve
+9	élève	eleve
+4	étude	etude
+7	étude	etude
+10	étude	etude
+Tables_in_exploration_types
+comparaison
+comparaison_mots
+messages
+mots
+mots_general
+mots_unicode
+multilingue
+test_encodage
+Field	Type	Null	Key	Default	Extra
+id	int(11)	NO	PRI	NULL	auto_increment
+texteA	varchar(50)	YES		NULL	
+texteB	varchar(50)	YES		NULL	
+id	texteA	texteB
+1	café	Café
+2	école	ecole
+3	élève	eleve
+4	étude	etude
+5	école	ecole
+6	élève	eleve
+7	étude	etude
+8	école	ecole
+9	élève	eleve
+10	étude	etude
