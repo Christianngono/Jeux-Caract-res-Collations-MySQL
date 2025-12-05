@@ -1,0 +1,28 @@
+Collation	titre
+utf8mb4_unicode_ci	L'école des femmes
+utf8mb4_unicode_ci	ÉCOLE de magie
+Collation	titre
+utf8mb4_spanish_ci	El niño y la escuela
+utf8mb4_spanish_ci	Escuela internacional
+utf8mb4_spanish_ci	La escuela de la vida
+Collation	titre
+utf8mb4_bin	L'école des femmes
+Ligne
+Recherche : "ecole"
+utf8mb4_unicode_ci
+ ├── "école"   → trouvé
+ ├── "ÉCOLE"   → trouvé
+ └── "ecole"   → trouvé
+   (insensible à casse et accents)
+
+utf8mb4_spanish_ci
+ ├── "niño"    → tri correct (ñ après n)
+ ├── "escuela" → ordre respecté
+ └── "École"   → trouvé
+   (respect des règles linguistiques espagnoles)
+
+utf8mb4_bin
+ ├── "école"   → trouvé
+ ├── "ÉCOLE"   → NON trouvé
+ └── "ecole"   → NON trouvé
+   (comparaison stricte, sensible à casse et accents)

@@ -1,0 +1,61 @@
+id	texte
+1	Bonjour tout le monde! 😃🌍
+2	Hola Mundo! 🌞
+3	你好，世界！🐉
+4	مرحبا بالعالم 🌙
+5	Привет мир 🚀
+6	नमस्ते दुनिया 🌸
+mot
+ecole
+école
+École
+Ecole
+mañana
+manana
+straße
+strasse
+mot
+ecole
+école
+École
+Ecole
+mañana
+manana
+straße
+strasse
+mot
+ecole
+école
+École
+Ecole
+mot
+ecole
+école
+École
+Ecole
+mot
+ecole
+école
+École
+Ecole
+mot
+ecole
+école
+École
+Ecole
+mot
+école
+escuela
+schule
+школа
+مدرسة
+विद्यालय
+学校
+mot
+école
+escuela
+schule
+школа
+مدرسة
+विद्यालय
+学校

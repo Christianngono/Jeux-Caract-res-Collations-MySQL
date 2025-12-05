@@ -1,0 +1,9 @@
+id	titre	auteur	langue	resume
+1	L'école des femmes	Molière	français	Une comédie classique 🎭
+5	ÉCOLE de magie	Jean Dupont	français	Un résumé avec des accents ✨
+id	titre	auteur	langue	resume
+6	El niño y la escuela	Gabriel García	espagnol	Historia con acentos y emoción 😍
+9	Escuela internacional	María López	espagnol	Un cuento sobre diversidad 🌍
+2	La escuela de la vida	Carlos Ruiz	espagnol	Un récit sur l'apprentissage 📚
+id	titre	auteur	langue	resume
+1	L'école des femmes	Molière	français	Une comédie classique 🎭
