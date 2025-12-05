@@ -62,4 +62,5 @@ chris@Chris:~/Jeux-Caract-res-Collations-MySQL/Exercice2$ chmod +x run_exo2.sh
 chris@Chris:~/Jeux-Caract-res-Collations-MySQL/Exercice2$ ./run_exo2.sh
 
 ```
+- Résultats sont dans le fichier sortie2.txt
 

@@ -1,10 +1,7 @@
 Tables_in_exploration_types
 comparaison
-comparaison_mots
 messages
 mots
-mots_general
-mots_unicode
 multilingue
 test_encodage
 Field	Type	Null	Key	Default	Extra
