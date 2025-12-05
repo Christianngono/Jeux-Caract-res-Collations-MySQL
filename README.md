@@ -55,60 +55,29 @@ Ce fichier de documentation. Il décrit les différents scripts SQL et leur obje
 
 ---
 
-
-## ✅ Conclusion
+# Conclusion
 
 Ce répertoire constitue une progression complète sur la gestion des jeux de caractères, collations et recherches avancées dans MySQL/MariaDB.  
 Chaque TP illustre une facette différente : multilingue, accents, casse, normalisation, emojis, indexation et recherche FULLTEXT.
 
+- commandes d'exécutions :
 
-## Exercice 2 : Comparaison de collations
+```bash
+chris@Chris:~/Jeux-Caract-res-Collations-MySQL$ mysql -u admin_chris -p exploration_types < TP2.sql > sortie.txt
+chris@Chris:~/Jeux-Caract-res-Collations-MySQL$ mysql -u admin_chris -p exploration_types < TP2.sql
+chris@Chris:~/Jeux-Caract-res-Collations-MySQL$ mysql -u admin_chris -p exploration_types < TPA.sql > sortieA.txt
+...
 
-## Jeux-Caract-res-Collations-MySQL/Exercice2/
+```
 
-Ce dossier contient des scripts SQL destinés à explorer les différences entre collations dans MySQL/MariaDB.  
-Chaque fichier illustre une variante de test (sensibilité à la casse, accents, tri, indexation) et génère une sortie observable.
-
----
-
-## 📂 Contenu
-
-- **TP2A.sql**  
-  Crée une table avec deux colonnes (`utf8mb4_bin` vs `utf8mb4_general_ci`).  
-  Insère des données (`café` / `Café`) et compare les résultats pour montrer la sensibilité à la casse et aux accents.
-
-- **TP2B.sql**  
-  Étend les tests avec plusieurs mots accentués (`école`, `ecole`, `École`, etc.).  
-  Compare les résultats et montre les différences de tri entre collations strictes et souples.
-
-- **TP2C.sql**  
-  Ajoute des index et observe leur utilisation avec `EXPLAIN`.  
-  Permet de comparer les performances et l’impact des collations sur les recherches et tris.
-
-- **sortie.txt**  
-  Fichier de sortie généré lors de l’exécution des scripts avec redirection.  
-  Contient les résultats des `SELECT`, `SHOW TABLES`, `DESCRIBE` et comparaisons.
-
----
-
-## ✅ Conclusion
-
-Ce dossier illustre pas à pas comment les collations influencent :  
-- La comparaison de chaînes (`=`).  
-- La sensibilité aux accents et majuscules.  
-- Le tri et l’ordre des résultats.  
-- L’utilisation des index et les performances.
-
----
-
-### Exercice 3 : Modification des collations et exploration des erreurs 🔄
+### Exercice 3 : Modification des collations et exploration des erreurs 
 
 Ce dossier contient des scripts SQL destinés à tester la modification des collations sur une table existante et à observer les effets sur les comparaisons.  
 Il illustre également les erreurs fréquentes liées aux jeux de caractères et collations incompatibles.
 
 ---
 
-## 📂 Contenu
+### Contenu
 
 - **TP3.sql**  
   Script qui modifie la collation des colonnes d’une table (`comparaison`) pour harmoniser en `utf8mb4_unicode_ci`.  
@@ -120,7 +89,7 @@ Il illustre également les erreurs fréquentes liées aux jeux de caractères et
 
 ---
 
-## ✅ Conclusion
+### Conclusion
 
 Ce dossier illustre :  
 - Comment modifier la collation d’une table existante.  
@@ -136,7 +105,7 @@ Il montre ensuite la correction en passant à `utf8mb4`, qui supporte pleinement
 
 ---
 
-## 📂 Contenu
+#### Contenu
 
 - **TP4.sql**  
   Script SQL qui :
@@ -151,7 +120,7 @@ Il montre ensuite la correction en passant à `utf8mb4`, qui supporte pleinement
 
 ---
 
-## Conclusion
+#### Conclusion
 
 Cet exercice montre que :
 - utf8 (MySQL/MariaDB) est limité à 3 octets et ne supporte pas les emojis.
@@ -161,7 +130,7 @@ Cet exercice montre que :
 
 
 
-## Commande d’exécution
+#### Commande d’exécution
 
 Depuis l’emplacement du dossier `Exercice4` :
 
